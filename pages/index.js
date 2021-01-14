@@ -13,10 +13,10 @@ export default function Home() {
       gsap.to("#element", {
         duration: 2,
         text: {
-            value: "This is the new text",
+            value: "テキストアニメーション",
             delimiter: ""
         },
-        ease: "none"
+        ease: "power2"
     });
     console.log('clicked')
     });
@@ -30,7 +30,7 @@ export default function Home() {
     </Head>
     <main>
       <p id="text">test</p>
-      <p id="element">TYPE</p>
+      <p id="element">TYPEtestsetset</p>
     </main>
     </>
   )
